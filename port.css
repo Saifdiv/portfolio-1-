@@ -34,8 +34,8 @@ body{
         transition: right 300ms ease-out;
         width: 50%;
         background-color: black;
-        margin-top:80% ;
-        padding-top: 80%;
+        margin-top:85% ;
+        padding-top: 85%;
         flex-direction: column;
     }
     ol{
