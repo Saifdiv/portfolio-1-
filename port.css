@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    box-sizing: border-box;
 }
 .header{
     position: fixed;
@@ -34,8 +35,8 @@ body{
         transition: right 300ms ease-out;
         width: 50%;
         background-color: black;
-        margin-top:85% ;
-        padding-top: 100%;
+        margin-top:80% ;
+        padding-top: 80%;
         flex-direction: column;
     }
     ol{
@@ -139,8 +140,8 @@ to{
      }
      .main{
         position: relative;
-        top:250px ;
-        margin-left: 100px;
+        top: 14.37em; ;
+        margin-left: 6.25em;
      }
      #contacts{
         padding: 10px;
@@ -273,6 +274,104 @@ to{
             border: solid white;
             border-radius: 50%;
         }
+@media screen and (max-width: 768px) {
+    .main {
+        margin-left: 1em; 
+        top: 4.5em;
+    }
+    .main h2, .main h3 {
+        font-size: 1.5em; 
+    }
+    .main button {
+        left: 0; 
+        margin: 10px auto; 
+        }
+    #contacts {
+        margin-left: 0; 
+        text-align: center; 
+    }
+    #contacts img {
+        width: 10%; 
+        height: 10%;
+    }
+    .mypic img {
+        width: 40%; 
+        height: 40%;
+    }
+    .mtow {
+        padding: 50px 20px; 
+    }
+
+    .cards {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .cart {
+        width: 80%; 
+        margin: 10px 0; 
+    }
+    .mthree {
+        margin: 50px 20px; 
+    }
+    .example {
+        width: 80%; 
+        margin: 10px 0; 
+    }
+    .example img {
+        width: 80%; 
+        height: 80%;
+        left:10%; 
+    }
+    .mfor {
+        margin: 50px 20px; 
+    }
+
+    .mfor .cart {
+        width: 80%; 
+        margin: 10px 0; 
+    }
+
+    .mfor img {
+        left: 10%; 
+    }
+
+    .footer {
+        flex-direction: column; 
+        text-align: center; 
+        padding: 20px; 
+    }
+
+    .footer #logo {
+        margin-bottom: 10px; 
+    }
+
+    .footer ul {
+        flex-direction: column; 
+        padding: 0; 
+    }
+
+    .footer ol {
+        margin: 5px 0; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main h2, .main h3 {
+        font-size: 1.2em; 
+    }
+
+    .main button {
+        padding: 8px; 
+    }
+
+    .cart, .example {
+        width: 90%; 
+    }
+
+    .footer {
+        font-size: 0.9em;
+    }
+}
         
 
 
