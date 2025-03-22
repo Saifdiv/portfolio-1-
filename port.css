@@ -28,6 +28,7 @@ body{
 @media screen and (max-width:768px) {
     #logo{
         margin-left: 20%;
+    }
     ul{
         position: fixed;
         right: 100%;
@@ -356,7 +357,7 @@ to{
         margin: 5px 0; 
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     .main h2, .main h3 {
         font-size: 1.2em; 
     }
