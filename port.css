@@ -313,14 +313,14 @@ to{
     .mthree {
         margin: 50px 20px; 
     }
-    .example {
+    .example{
         width: 80%; 
-        margin: 10px 0; 
+        margin: 10px 0;
+        padding-right:20%; 
     }
     .example img {
-        width: 80%; 
-        height: 80%;
-        left:10%; 
+        width: 75%; 
+        height: 75%; 
     }
     .mfor {
         margin: 50px 20px; 
@@ -354,22 +354,24 @@ to{
         margin: 5px 0; 
     }
 }
-
 @media screen and (max-width: 480px) {
+    ul{
+        display: none;
+    }
+    #logo{
+        margin: 45%;
+    }
     .main h2, .main h3 {
         font-size: 1.2em; 
     }
-
     .main button {
         padding: 8px; 
     }
-
-    .cart, .example {
+.cart, .example {
         width: 90%; 
     }
-
     .footer {
-        font-size: 0.9em;
+        font-size: 0.9em; 
     }
 }
         
